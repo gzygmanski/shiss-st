@@ -20,5 +20,4 @@ nord
 
 Screenshots
 -----------
-
-![screen1](https://raw.githubusercontent.com/gzygmanski/shiss-dwm/shiss-dwm/screen1.png "terminal")
+![screen1](https://raw.githubusercontent.com/gzygmanski/shiss-st/shiss-st/screen1.png "terminal")
