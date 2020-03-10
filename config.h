@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:pixelsize=14:antialias=true:autohint=true:style=bold";
-static int borderpx = 10;
+static char *font = "monospace:pixelsize=16:antialias=true:autohint=true:style=bold";
+static int borderpx = 40;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -95,16 +95,16 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.99;
+float alpha = 0.98;
 
 /* Terminal colors (16 first used in escape sequence) */
-static const char *colorname[] = { 
+static const char *colorname[] = {
 
 /* 8 normal colors */
 [0] = "#3b4252", /* black   */
 [1] = "#bf616a", /* red     */
 [2] = "#8fbcbb", /* green   */
-[3] = "#a3be8c", /* yellow  */
+[3] = "#81a1c1", /* yellow  */
 [4] = "#5e81ac", /* blue    */
 [5] = "#b48ead", /* magenta */
 [6] = "#88c0d0", /* cyan    */
@@ -114,8 +114,8 @@ static const char *colorname[] = {
 [8]  = "#4c566a", /* black   */
 [9]  = "#d08770", /* red     */
 [10] = "#8fbcbb", /* green   */
-[11] = "#a3be8c", /* yellow  */
-[12] = "#81a1c1", /* blue    */
+[11] = "#ebcb8b", /* yellow  */
+[12] = "#5e81ac", /* blue    */
 [13] = "#b48ead", /* magenta */
 [14] = "#88c0d0", /* cyan    */
 [15] = "#eceff4", /* white   */
@@ -127,7 +127,7 @@ static const char *colorname[] = {
 
 /*
  * Default colors (colorname index)
- * foreground, background, cursor 
+ * foreground, background, cursor
  */
 
 unsigned int defaultfg = 257;

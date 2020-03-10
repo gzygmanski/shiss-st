@@ -16,4 +16,9 @@ st-vertcenter-20180320-6ac8c8a.diff
 
 Color scheme
 ------------
-solarized-light
+nord
+
+Screenshots
+-----------
+
+![screen1](https://raw.githubusercontent.com/gzygmanski/shiss-dwm/shiss-dwm/screen1.png "terminal")
